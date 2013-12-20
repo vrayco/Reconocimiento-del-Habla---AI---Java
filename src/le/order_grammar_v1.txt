@@ -1,0 +1,43 @@
+#JSGF V1.0;
+grammar sentence;
+ 
+public <sentence> =
+[<dato0><dato3>]
+[<dato1><dato3>]
+[<dato2><dato3>]
+[<dato4><dato5>]
+[<dato4><dato5>]
+[<dato6><dato7><dato8><dato9><dato10>]
+[<dato11><dato13>]
+[<dato12><dato13>]
+[<dato14><dato16>]
+[<dato15><dato16>]
+[<dato17><dato18>];
+
+<dato0> = Apagar;
+<dato1> = Reiniciar;
+<dato2> = Hibernar;
+
+<dato3> = Sistema;
+
+<dato4> = Cerrar;
+<dato5> = Navegador;
+
+<dato6> = Finalizar;
+<dato7> = Procesos;
+<dato8> = Que;
+<dato9> = No;
+<dato10> = Responden;
+
+<dato11> = Activar;
+<dato12> = Silenciar;
+
+<dato13> = Sonido;
+
+<dato14> = Subir;
+<dato15> = Bajar;
+
+<dato16> = Volumen;
+
+<dato17> = Cerrar;
+<dato18> = Aplicacion;

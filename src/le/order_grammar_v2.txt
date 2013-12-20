@@ -1,0 +1,17 @@
+#JSGF V1.0;
+grammar order_grammar;
+
+
+public <order_grammar> = <system_termination_orders> | <process_orders> | <sound_orders> | <application_orders>;
+
+<system_termination_orders> = <system_orders> Sistema;
+<system_orders> = Apagar | Reiniciar | Hibernar;
+
+<process_orders> = (Cerrar Navegador) | (Finalizar Procesos Que No Responden); 
+
+<sound_orders> = (<sound_basic_orders> Sonido) | (<sound_complex_orders> Volumen);
+<sound_basic_orders> = Activar | Silenciar;
+
+<sound_complex_orders> = Subir | Bajar;
+
+<application_orders> = Cerrar Aplicacion;
