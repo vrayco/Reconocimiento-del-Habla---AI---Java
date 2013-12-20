@@ -5,8 +5,8 @@
 
 
 <ul>
-  <li>Leguaje utilizado: C#</li>
-  <li>Entorno de desarrollo: Visual Studio 2013</li>
+  <li>Leguaje utilizado: Java</li>
+  <li>Entorno de desarrollo: Eclipse</li>
 </ul>
 
 <h3>Instalación</h3>
